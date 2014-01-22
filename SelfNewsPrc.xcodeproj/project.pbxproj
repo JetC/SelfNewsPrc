@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFD93512188FC107006C3025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93511188FC107006C3025 /* Foundation.framework */; };
+		DFD93514188FC107006C3025 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93513188FC107006C3025 /* CoreGraphics.framework */; };
+		DFD93516188FC107006C3025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93515188FC107006C3025 /* UIKit.framework */; };
+		DFD9351C188FC107006C3025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFD9351A188FC107006C3025 /* InfoPlist.strings */; };
+		DFD9351E188FC107006C3025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9351D188FC107006C3025 /* main.m */; };
+		DFD93522188FC107006C3025 /* ZQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD93521188FC107006C3025 /* ZQAppDelegate.m */; };
+		DFD93525188FC107006C3025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD93523188FC107006C3025 /* Main.storyboard */; };
+		DFD93528188FC107006C3025 /* ZQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD93527188FC107006C3025 /* ZQViewController.m */; };
+		DFD9352A188FC107006C3025 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD93529188FC107006C3025 /* Images.xcassets */; };
+		DFD93531188FC107006C3025 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93530188FC107006C3025 /* XCTest.framework */; };
+		DFD93532188FC107006C3025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93511188FC107006C3025 /* Foundation.framework */; };
+		DFD93533188FC107006C3025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93515188FC107006C3025 /* UIKit.framework */; };
+		DFD9353B188FC107006C3025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFD93539188FC107006C3025 /* InfoPlist.strings */; };
+		DFD9353D188FC107006C3025 /* SelfNewsPrcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9353C188FC107006C3025 /* SelfNewsPrcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFD93534188FC107006C3025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD93506188FC107006C3025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD9350D188FC107006C3025;
+			remoteInfo = SelfNewsPrc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFD9350E188FC107006C3025 /* SelfNewsPrc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfNewsPrc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD93511188FC107006C3025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFD93513188FC107006C3025 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFD93515188FC107006C3025 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFD93519188FC107006C3025 /* SelfNewsPrc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelfNewsPrc-Info.plist"; sourceTree = "<group>"; };
+		DFD9351B188FC107006C3025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFD9351D188FC107006C3025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFD9351F188FC107006C3025 /* SelfNewsPrc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfNewsPrc-Prefix.pch"; sourceTree = "<group>"; };
+		DFD93520188FC107006C3025 /* ZQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQAppDelegate.h; sourceTree = "<group>"; };
+		DFD93521188FC107006C3025 /* ZQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQAppDelegate.m; sourceTree = "<group>"; };
+		DFD93524188FC107006C3025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFD93526188FC107006C3025 /* ZQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQViewController.h; sourceTree = "<group>"; };
+		DFD93527188FC107006C3025 /* ZQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQViewController.m; sourceTree = "<group>"; };
+		DFD93529188FC107006C3025 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFD9352F188FC107006C3025 /* SelfNewsPrcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfNewsPrcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD93530188FC107006C3025 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DFD93538188FC107006C3025 /* SelfNewsPrcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelfNewsPrcTests-Info.plist"; sourceTree = "<group>"; };
+		DFD9353A188FC107006C3025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFD9353C188FC107006C3025 /* SelfNewsPrcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfNewsPrcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD9350B188FC107006C3025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD93514188FC107006C3025 /* CoreGraphics.framework in Frameworks */,
+				DFD93516188FC107006C3025 /* UIKit.framework in Frameworks */,
+				DFD93512188FC107006C3025 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD9352C188FC107006C3025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD93531188FC107006C3025 /* XCTest.framework in Frameworks */,
+				DFD93533188FC107006C3025 /* UIKit.framework in Frameworks */,
+				DFD93532188FC107006C3025 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFD93505188FC107006C3025 = {
+			isa = PBXGroup;
+			children = (
+				DFD93517188FC107006C3025 /* SelfNewsPrc */,
+				DFD93536188FC107006C3025 /* SelfNewsPrcTests */,
+				DFD93510188FC107006C3025 /* Frameworks */,
+				DFD9350F188FC107006C3025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD9350F188FC107006C3025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD9350E188FC107006C3025 /* SelfNewsPrc.app */,
+				DFD9352F188FC107006C3025 /* SelfNewsPrcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD93510188FC107006C3025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFD93511188FC107006C3025 /* Foundation.framework */,
+				DFD93513188FC107006C3025 /* CoreGraphics.framework */,
+				DFD93515188FC107006C3025 /* UIKit.framework */,
+				DFD93530188FC107006C3025 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD93517188FC107006C3025 /* SelfNewsPrc */ = {
+			isa = PBXGroup;
+			children = (
+				DFD93520188FC107006C3025 /* ZQAppDelegate.h */,
+				DFD93521188FC107006C3025 /* ZQAppDelegate.m */,
+				DFD93523188FC107006C3025 /* Main.storyboard */,
+				DFD93526188FC107006C3025 /* ZQViewController.h */,
+				DFD93527188FC107006C3025 /* ZQViewController.m */,
+				DFD93529188FC107006C3025 /* Images.xcassets */,
+				DFD93518188FC107006C3025 /* Supporting Files */,
+			);
+			path = SelfNewsPrc;
+			sourceTree = "<group>";
+		};
+		DFD93518188FC107006C3025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFD93519188FC107006C3025 /* SelfNewsPrc-Info.plist */,
+				DFD9351A188FC107006C3025 /* InfoPlist.strings */,
+				DFD9351D188FC107006C3025 /* main.m */,
+				DFD9351F188FC107006C3025 /* SelfNewsPrc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFD93536188FC107006C3025 /* SelfNewsPrcTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD9353C188FC107006C3025 /* SelfNewsPrcTests.m */,
+				DFD93537188FC107006C3025 /* Supporting Files */,
+			);
+			path = SelfNewsPrcTests;
+			sourceTree = "<group>";
+		};
+		DFD93537188FC107006C3025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFD93538188FC107006C3025 /* SelfNewsPrcTests-Info.plist */,
+				DFD93539188FC107006C3025 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD9350D188FC107006C3025 /* SelfNewsPrc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD93540188FC107006C3025 /* Build configuration list for PBXNativeTarget "SelfNewsPrc" */;
+			buildPhases = (
+				DFD9350A188FC107006C3025 /* Sources */,
+				DFD9350B188FC107006C3025 /* Frameworks */,
+				DFD9350C188FC107006C3025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfNewsPrc;
+			productName = SelfNewsPrc;
+			productReference = DFD9350E188FC107006C3025 /* SelfNewsPrc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFD9352E188FC107006C3025 /* SelfNewsPrcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD93543188FC107006C3025 /* Build configuration list for PBXNativeTarget "SelfNewsPrcTests" */;
+			buildPhases = (
+				DFD9352B188FC107006C3025 /* Sources */,
+				DFD9352C188FC107006C3025 /* Frameworks */,
+				DFD9352D188FC107006C3025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD93535188FC107006C3025 /* PBXTargetDependency */,
+			);
+			name = SelfNewsPrcTests;
+			productName = SelfNewsPrcTests;
+			productReference = DFD9352F188FC107006C3025 /* SelfNewsPrcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD93506188FC107006C3025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZQ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "孙培峰";
+				TargetAttributes = {
+					DFD9352E188FC107006C3025 = {
+						TestTargetID = DFD9350D188FC107006C3025;
+					};
+				};
+			};
+			buildConfigurationList = DFD93509188FC107006C3025 /* Build configuration list for PBXProject "SelfNewsPrc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFD93505188FC107006C3025;
+			productRefGroup = DFD9350F188FC107006C3025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD9350D188FC107006C3025 /* SelfNewsPrc */,
+				DFD9352E188FC107006C3025 /* SelfNewsPrcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFD9350C188FC107006C3025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD9352A188FC107006C3025 /* Images.xcassets in Resources */,
+				DFD9351C188FC107006C3025 /* InfoPlist.strings in Resources */,
+				DFD93525188FC107006C3025 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD9352D188FC107006C3025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD9353B188FC107006C3025 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD9350A188FC107006C3025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD9351E188FC107006C3025 /* main.m in Sources */,
+				DFD93522188FC107006C3025 /* ZQAppDelegate.m in Sources */,
+				DFD93528188FC107006C3025 /* ZQViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD9352B188FC107006C3025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD9353D188FC107006C3025 /* SelfNewsPrcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFD93535188FC107006C3025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD9350D188FC107006C3025 /* SelfNewsPrc */;
+			targetProxy = DFD93534188FC107006C3025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFD9351A188FC107006C3025 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD9351B188FC107006C3025 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFD93523188FC107006C3025 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD93524188FC107006C3025 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFD93539188FC107006C3025 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD9353A188FC107006C3025 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFD9353E188FC107006C3025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFD9353F188FC107006C3025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD93541188FC107006C3025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfNewsPrc/SelfNewsPrc-Prefix.pch";
+				INFOPLIST_FILE = "SelfNewsPrc/SelfNewsPrc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFD93542188FC107006C3025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfNewsPrc/SelfNewsPrc-Prefix.pch";
+				INFOPLIST_FILE = "SelfNewsPrc/SelfNewsPrc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DFD93544188FC107006C3025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SelfNewsPrc.app/SelfNewsPrc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfNewsPrc/SelfNewsPrc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SelfNewsPrcTests/SelfNewsPrcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DFD93545188FC107006C3025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SelfNewsPrc.app/SelfNewsPrc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfNewsPrc/SelfNewsPrc-Prefix.pch";
+				INFOPLIST_FILE = "SelfNewsPrcTests/SelfNewsPrcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD93509188FC107006C3025 /* Build configuration list for PBXProject "SelfNewsPrc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9353E188FC107006C3025 /* Debug */,
+				DFD9353F188FC107006C3025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD93540188FC107006C3025 /* Build configuration list for PBXNativeTarget "SelfNewsPrc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD93541188FC107006C3025 /* Debug */,
+				DFD93542188FC107006C3025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFD93543188FC107006C3025 /* Build configuration list for PBXNativeTarget "SelfNewsPrcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD93544188FC107006C3025 /* Debug */,
+				DFD93545188FC107006C3025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFD93506188FC107006C3025 /* Project object */;
+}
