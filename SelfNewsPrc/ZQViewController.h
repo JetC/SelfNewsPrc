@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZQViewController : UIViewController
+@interface ZQViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,retain)NSMutableDictionary *states;
+@property (nonatomic,retain)NSArray *dataSource;
+
+-(void)setupArray;
+
 
 @end
