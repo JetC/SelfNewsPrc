@@ -116,6 +116,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF86A05E18928D7F00F3BE81 /* Kits */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC09391891034C00027E78 /* Toast+UIView.h */,
+				DFAC093A1891034C00027E78 /* Toast+UIView.m */,
+				DFA5DD9E1890BB9A002CCF9A /* AFHTTPRequestOperation.h */,
+				DFA5DD9F1890BB9A002CCF9A /* AFHTTPRequestOperation.m */,
+				DFA5DDA01890BB9A002CCF9A /* AFHTTPRequestOperationManager.h */,
+				DFA5DDA11890BB9A002CCF9A /* AFHTTPRequestOperationManager.m */,
+				DFA5DDA21890BB9A002CCF9A /* AFHTTPSessionManager.h */,
+				DFA5DDA31890BB9A002CCF9A /* AFHTTPSessionManager.m */,
+				DFA5DDA41890BB9A002CCF9A /* AFNetworking.h */,
+				DFA5DDA51890BB9A002CCF9A /* AFNetworkReachabilityManager.h */,
+				DFA5DDA61890BB9A002CCF9A /* AFNetworkReachabilityManager.m */,
+				DFA5DDA71890BB9A002CCF9A /* AFSecurityPolicy.h */,
+				DFA5DDA81890BB9A002CCF9A /* AFSecurityPolicy.m */,
+				DFA5DDA91890BB9A002CCF9A /* AFURLConnectionOperation.h */,
+				DFA5DDAA1890BB9A002CCF9A /* AFURLConnectionOperation.m */,
+				DFA5DDAB1890BB9A002CCF9A /* AFURLRequestSerialization.h */,
+				DFA5DDAC1890BB9A002CCF9A /* AFURLRequestSerialization.m */,
+				DFA5DDAD1890BB9A002CCF9A /* AFURLResponseSerialization.h */,
+				DFA5DDAE1890BB9A002CCF9A /* AFURLResponseSerialization.m */,
+				DFA5DDAF1890BB9A002CCF9A /* AFURLSessionManager.h */,
+				DFA5DDB01890BB9A002CCF9A /* AFURLSessionManager.m */,
+			);
+			name = Kits;
+			sourceTree = "<group>";
+		};
 		DFD93505188FC107006C3025 = {
 			isa = PBXGroup;
 			children = (
@@ -157,28 +185,8 @@
 				DF7B002A188FFD4300585D8B /* ZQTableViewController.h */,
 				DF7B002B188FFD4300585D8B /* ZQTableViewController.m */,
 				DF7B0024188FEBA800585D8B /* ZQDetailViewController.h */,
-				DFAC09391891034C00027E78 /* Toast+UIView.h */,
-				DFAC093A1891034C00027E78 /* Toast+UIView.m */,
 				DF7B0025188FEBA800585D8B /* ZQDetailViewController.m */,
-				DFA5DD9E1890BB9A002CCF9A /* AFHTTPRequestOperation.h */,
-				DFA5DD9F1890BB9A002CCF9A /* AFHTTPRequestOperation.m */,
-				DFA5DDA01890BB9A002CCF9A /* AFHTTPRequestOperationManager.h */,
-				DFA5DDA11890BB9A002CCF9A /* AFHTTPRequestOperationManager.m */,
-				DFA5DDA21890BB9A002CCF9A /* AFHTTPSessionManager.h */,
-				DFA5DDA31890BB9A002CCF9A /* AFHTTPSessionManager.m */,
-				DFA5DDA41890BB9A002CCF9A /* AFNetworking.h */,
-				DFA5DDA51890BB9A002CCF9A /* AFNetworkReachabilityManager.h */,
-				DFA5DDA61890BB9A002CCF9A /* AFNetworkReachabilityManager.m */,
-				DFA5DDA71890BB9A002CCF9A /* AFSecurityPolicy.h */,
-				DFA5DDA81890BB9A002CCF9A /* AFSecurityPolicy.m */,
-				DFA5DDA91890BB9A002CCF9A /* AFURLConnectionOperation.h */,
-				DFA5DDAA1890BB9A002CCF9A /* AFURLConnectionOperation.m */,
-				DFA5DDAB1890BB9A002CCF9A /* AFURLRequestSerialization.h */,
-				DFA5DDAC1890BB9A002CCF9A /* AFURLRequestSerialization.m */,
-				DFA5DDAD1890BB9A002CCF9A /* AFURLResponseSerialization.h */,
-				DFA5DDAE1890BB9A002CCF9A /* AFURLResponseSerialization.m */,
-				DFA5DDAF1890BB9A002CCF9A /* AFURLSessionManager.h */,
-				DFA5DDB01890BB9A002CCF9A /* AFURLSessionManager.m */,
+				DF86A05E18928D7F00F3BE81 /* Kits */,
 				DFD93529188FC107006C3025 /* Images.xcassets */,
 				DFD93518188FC107006C3025 /* Supporting Files */,
 			);

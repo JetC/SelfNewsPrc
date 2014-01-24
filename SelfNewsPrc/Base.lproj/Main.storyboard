@@ -52,7 +52,7 @@
         <!--Detail View Controller-->
         <scene sceneID="GSi-cm-N0Z">
             <objects>
-                <viewController storyboardIdentifier="ZQDetailViewController" id="cGx-6x-vds" customClass="ZQDetailViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailNews" id="cGx-6x-vds" customClass="ZQDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="28U-cK-HJt"/>
                         <viewControllerLayoutGuide type="bottom" id="flQ-4s-zNr"/>

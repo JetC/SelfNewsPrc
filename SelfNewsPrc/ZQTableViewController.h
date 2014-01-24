@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ZQTableViewController : UITableViewController
+
 @property (nonatomic, strong) NSString *category;
 
 @end

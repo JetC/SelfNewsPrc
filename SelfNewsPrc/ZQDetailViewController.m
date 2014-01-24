@@ -1,32 +1,24 @@
 //
-//  ZQDetailViewController.m
-//  SelfNewsPrc
+//  ZQDetailNewsViewController.m
+//  news
 //
-//  Created by 孙培峰 on 1401/22/.
-//  Copyright (c) 2014年 孙培峰. All rights reserved.
+//  Created by 黄 嘉恒 on 11/7/13.
+//  Copyright (c) 2013 黄 嘉恒. All rights reserved.
 //
 
 #import "ZQDetailViewController.h"
 #import "AFNetworking.h"
 #import "Toast+UIView.h"
+#import "ZQTableViewController.h"
 
 @interface ZQDetailViewController ()
 
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
-@property (strong, nonatomic)NSDictionary *contentDict;
+@property (nonatomic, weak)IBOutlet UIWebView *webView;
+@property (nonatomic, strong) NSDictionary *contentDict;
 
 @end
 
 @implementation ZQDetailViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -39,6 +31,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - Networking
 
 - (void)loadNews
 {
@@ -66,27 +60,23 @@
     self.title = sourceDict[@"title"];
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
