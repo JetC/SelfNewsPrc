@@ -10,10 +10,10 @@
 
 @interface ZQViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 
-@property (nonatomic,retain)NSMutableDictionary *states;
-@property (nonatomic,retain)NSArray *dataSource;
+//@property (nonatomic,retain)NSMutableDictionary *states;
+//@property (nonatomic,retain)NSArray *dataSource;
 
--(void)setupArray;
+//-(void)setupArray;
 
 
 @end

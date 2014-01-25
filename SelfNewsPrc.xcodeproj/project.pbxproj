@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF7B0026188FEBA800585D8B /* ZQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B0025188FEBA800585D8B /* ZQDetailViewController.m */; };
 		DF7B002C188FFD4300585D8B /* ZQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B002B188FFD4300585D8B /* ZQTableViewController.m */; };
+		DF86A0611892A04F00F3BE81 /* Toast+UIView2.2.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86A05F1892A04F00F3BE81 /* Toast+UIView2.2.m */; };
 		DFA5DDB11890BB9A002CCF9A /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA5DD9F1890BB9A002CCF9A /* AFHTTPRequestOperation.m */; };
 		DFA5DDB21890BB9A002CCF9A /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA5DDA11890BB9A002CCF9A /* AFHTTPRequestOperationManager.m */; };
 		DFA5DDB31890BB9A002CCF9A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA5DDA31890BB9A002CCF9A /* AFHTTPSessionManager.m */; };
@@ -18,7 +19,7 @@
 		DFA5DDB71890BB9A002CCF9A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA5DDAC1890BB9A002CCF9A /* AFURLRequestSerialization.m */; };
 		DFA5DDB81890BB9A002CCF9A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA5DDAE1890BB9A002CCF9A /* AFURLResponseSerialization.m */; };
 		DFA5DDB91890BB9A002CCF9A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA5DDB01890BB9A002CCF9A /* AFURLSessionManager.m */; };
-		DFAC093B1891034C00027E78 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC093A1891034C00027E78 /* Toast+UIView.m */; };
+		DFAB55BA1893EA220031D898 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAB55B91893EA220031D898 /* QuartzCore.framework */; };
 		DFD93512188FC107006C3025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93511188FC107006C3025 /* Foundation.framework */; };
 		DFD93514188FC107006C3025 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93513188FC107006C3025 /* CoreGraphics.framework */; };
 		DFD93516188FC107006C3025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93515188FC107006C3025 /* UIKit.framework */; };
@@ -26,7 +27,6 @@
 		DFD9351E188FC107006C3025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9351D188FC107006C3025 /* main.m */; };
 		DFD93522188FC107006C3025 /* ZQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD93521188FC107006C3025 /* ZQAppDelegate.m */; };
 		DFD93525188FC107006C3025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD93523188FC107006C3025 /* Main.storyboard */; };
-		DFD93528188FC107006C3025 /* ZQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD93527188FC107006C3025 /* ZQViewController.m */; };
 		DFD9352A188FC107006C3025 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD93529188FC107006C3025 /* Images.xcassets */; };
 		DFD93531188FC107006C3025 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93530188FC107006C3025 /* XCTest.framework */; };
 		DFD93532188FC107006C3025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD93511188FC107006C3025 /* Foundation.framework */; };
@@ -50,6 +50,8 @@
 		DF7B0025188FEBA800585D8B /* ZQDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQDetailViewController.m; sourceTree = "<group>"; };
 		DF7B002A188FFD4300585D8B /* ZQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableViewController.h; sourceTree = "<group>"; };
 		DF7B002B188FFD4300585D8B /* ZQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableViewController.m; sourceTree = "<group>"; };
+		DF86A05F1892A04F00F3BE81 /* Toast+UIView2.2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView2.2.m"; sourceTree = "<group>"; };
+		DF86A0601892A04F00F3BE81 /* Toast+UIView2.2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView2.2.h"; sourceTree = "<group>"; };
 		DFA5DD9E1890BB9A002CCF9A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		DFA5DD9F1890BB9A002CCF9A /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		DFA5DDA01890BB9A002CCF9A /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -69,8 +71,7 @@
 		DFA5DDAE1890BB9A002CCF9A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		DFA5DDAF1890BB9A002CCF9A /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		DFA5DDB01890BB9A002CCF9A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		DFAC09391891034C00027E78 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
-		DFAC093A1891034C00027E78 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		DFAB55B91893EA220031D898 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DFD9350E188FC107006C3025 /* SelfNewsPrc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfNewsPrc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD93511188FC107006C3025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFD93513188FC107006C3025 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,8 +83,6 @@
 		DFD93520188FC107006C3025 /* ZQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQAppDelegate.h; sourceTree = "<group>"; };
 		DFD93521188FC107006C3025 /* ZQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQAppDelegate.m; sourceTree = "<group>"; };
 		DFD93524188FC107006C3025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DFD93526188FC107006C3025 /* ZQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQViewController.h; sourceTree = "<group>"; };
-		DFD93527188FC107006C3025 /* ZQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQViewController.m; sourceTree = "<group>"; };
 		DFD93529188FC107006C3025 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DFD9352F188FC107006C3025 /* SelfNewsPrcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfNewsPrcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD93530188FC107006C3025 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -97,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFAB55BA1893EA220031D898 /* QuartzCore.framework in Frameworks */,
 				DFD93514188FC107006C3025 /* CoreGraphics.framework in Frameworks */,
 				DFD93516188FC107006C3025 /* UIKit.framework in Frameworks */,
 				DFD93512188FC107006C3025 /* Foundation.framework in Frameworks */,
@@ -119,8 +119,8 @@
 		DF86A05E18928D7F00F3BE81 /* Kits */ = {
 			isa = PBXGroup;
 			children = (
-				DFAC09391891034C00027E78 /* Toast+UIView.h */,
-				DFAC093A1891034C00027E78 /* Toast+UIView.m */,
+				DF86A0601892A04F00F3BE81 /* Toast+UIView2.2.h */,
+				DF86A05F1892A04F00F3BE81 /* Toast+UIView2.2.m */,
 				DFA5DD9E1890BB9A002CCF9A /* AFHTTPRequestOperation.h */,
 				DFA5DD9F1890BB9A002CCF9A /* AFHTTPRequestOperation.m */,
 				DFA5DDA01890BB9A002CCF9A /* AFHTTPRequestOperationManager.h */,
@@ -166,6 +166,7 @@
 		DFD93510188FC107006C3025 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFAB55B91893EA220031D898 /* QuartzCore.framework */,
 				DFD93511188FC107006C3025 /* Foundation.framework */,
 				DFD93513188FC107006C3025 /* CoreGraphics.framework */,
 				DFD93515188FC107006C3025 /* UIKit.framework */,
@@ -180,8 +181,6 @@
 				DFD93520188FC107006C3025 /* ZQAppDelegate.h */,
 				DFD93521188FC107006C3025 /* ZQAppDelegate.m */,
 				DFD93523188FC107006C3025 /* Main.storyboard */,
-				DFD93526188FC107006C3025 /* ZQViewController.h */,
-				DFD93527188FC107006C3025 /* ZQViewController.m */,
 				DF7B002A188FFD4300585D8B /* ZQTableViewController.h */,
 				DF7B002B188FFD4300585D8B /* ZQTableViewController.m */,
 				DF7B0024188FEBA800585D8B /* ZQDetailViewController.h */,
@@ -326,14 +325,13 @@
 				DFA5DDB91890BB9A002CCF9A /* AFURLSessionManager.m in Sources */,
 				DFA5DDB71890BB9A002CCF9A /* AFURLRequestSerialization.m in Sources */,
 				DF7B002C188FFD4300585D8B /* ZQTableViewController.m in Sources */,
-				DFAC093B1891034C00027E78 /* Toast+UIView.m in Sources */,
 				DFA5DDB81890BB9A002CCF9A /* AFURLResponseSerialization.m in Sources */,
 				DF7B0026188FEBA800585D8B /* ZQDetailViewController.m in Sources */,
 				DFD9351E188FC107006C3025 /* main.m in Sources */,
 				DFA5DDB21890BB9A002CCF9A /* AFHTTPRequestOperationManager.m in Sources */,
 				DFA5DDB51890BB9A002CCF9A /* AFSecurityPolicy.m in Sources */,
 				DFD93522188FC107006C3025 /* ZQAppDelegate.m in Sources */,
-				DFD93528188FC107006C3025 /* ZQViewController.m in Sources */,
+				DF86A0611892A04F00F3BE81 /* Toast+UIView2.2.m in Sources */,
 				DFA5DDB31890BB9A002CCF9A /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

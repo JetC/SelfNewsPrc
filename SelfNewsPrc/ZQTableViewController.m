@@ -8,7 +8,7 @@
 
 #import "ZQTableViewController.h"
 #import "ZQDetailViewController.h"
-#import "Toast+UIView.h"
+#import "Toast+UIView2.2.h"
 
 #define kNumberOfNewsLoadEachTime 15
 

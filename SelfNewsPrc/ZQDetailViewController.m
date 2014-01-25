@@ -8,7 +8,7 @@
 
 #import "ZQDetailViewController.h"
 #import "AFNetworking.h"
-#import "Toast+UIView.h"
+#import "Toast+UIView2.2.h"
 #import "ZQTableViewController.h"
 
 @interface ZQDetailViewController ()
