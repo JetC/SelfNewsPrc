@@ -2,7 +2,7 @@
  
 Toast+UIView.h
 Toast
-Version 2.0
+Version 2.2
 
 Copyright (c) 2013 Charles Scalesse.
  
@@ -28,16 +28,16 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ***************************************************************************/
 
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 @interface UIView (Toast)
 
 // each makeToast method creates a view and displays it as toast
 - (void)makeToast:(NSString *)message;
-- (void)makeToast:(NSString *)message duration:(CGFloat)interval position:(id)position;
-- (void)makeToast:(NSString *)message duration:(CGFloat)interval position:(id)position title:(NSString *)title;
-- (void)makeToast:(NSString *)message duration:(CGFloat)interval position:(id)position title:(NSString *)title image:(UIImage *)image;
-- (void)makeToast:(NSString *)message duration:(CGFloat)interval position:(id)position image:(UIImage *)image;
+- (void)makeToast:(NSString *)message duration:(NSTimeInterval)interval position:(id)position;
+- (void)makeToast:(NSString *)message duration:(NSTimeInterval)interval position:(id)position image:(UIImage *)image;
+- (void)makeToast:(NSString *)message duration:(NSTimeInterval)interval position:(id)position title:(NSString *)title;
+- (void)makeToast:(NSString *)message duration:(NSTimeInterval)interval position:(id)position title:(NSString *)title image:(UIImage *)image;
 
 // displays toast with an activity spinner
 - (void)makeToastActivity;
@@ -46,6 +46,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 // the showToast methods display any view as toast
 - (void)showToast:(UIView *)toast;
-- (void)showToast:(UIView *)toast duration:(CGFloat)interval position:(id)point;
+- (void)showToast:(UIView *)toast duration:(NSTimeInterval)interval position:(id)point;
 
 @end

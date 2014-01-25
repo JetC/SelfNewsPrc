@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF7B0026188FEBA800585D8B /* ZQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B0025188FEBA800585D8B /* ZQDetailViewController.m */; };
 		DF7B002C188FFD4300585D8B /* ZQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B002B188FFD4300585D8B /* ZQTableViewController.m */; };
-		DF86A0611892A04F00F3BE81 /* Toast+UIView2.2.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86A05F1892A04F00F3BE81 /* Toast+UIView2.2.m */; };
+		DFA499E21893EFE400776AAB /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA499E11893EFE400776AAB /* Toast+UIView.m */; };
 		DFA5DDB11890BB9A002CCF9A /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA5DD9F1890BB9A002CCF9A /* AFHTTPRequestOperation.m */; };
 		DFA5DDB21890BB9A002CCF9A /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA5DDA11890BB9A002CCF9A /* AFHTTPRequestOperationManager.m */; };
 		DFA5DDB31890BB9A002CCF9A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA5DDA31890BB9A002CCF9A /* AFHTTPSessionManager.m */; };
@@ -50,8 +50,8 @@
 		DF7B0025188FEBA800585D8B /* ZQDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQDetailViewController.m; sourceTree = "<group>"; };
 		DF7B002A188FFD4300585D8B /* ZQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableViewController.h; sourceTree = "<group>"; };
 		DF7B002B188FFD4300585D8B /* ZQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTableViewController.m; sourceTree = "<group>"; };
-		DF86A05F1892A04F00F3BE81 /* Toast+UIView2.2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView2.2.m"; sourceTree = "<group>"; };
-		DF86A0601892A04F00F3BE81 /* Toast+UIView2.2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView2.2.h"; sourceTree = "<group>"; };
+		DFA499E01893EFE400776AAB /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		DFA499E11893EFE400776AAB /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
 		DFA5DD9E1890BB9A002CCF9A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		DFA5DD9F1890BB9A002CCF9A /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		DFA5DDA01890BB9A002CCF9A /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -119,8 +119,8 @@
 		DF86A05E18928D7F00F3BE81 /* Kits */ = {
 			isa = PBXGroup;
 			children = (
-				DF86A0601892A04F00F3BE81 /* Toast+UIView2.2.h */,
-				DF86A05F1892A04F00F3BE81 /* Toast+UIView2.2.m */,
+				DFA499E01893EFE400776AAB /* Toast+UIView.h */,
+				DFA499E11893EFE400776AAB /* Toast+UIView.m */,
 				DFA5DD9E1890BB9A002CCF9A /* AFHTTPRequestOperation.h */,
 				DFA5DD9F1890BB9A002CCF9A /* AFHTTPRequestOperation.m */,
 				DFA5DDA01890BB9A002CCF9A /* AFHTTPRequestOperationManager.h */,
@@ -331,7 +331,7 @@
 				DFA5DDB21890BB9A002CCF9A /* AFHTTPRequestOperationManager.m in Sources */,
 				DFA5DDB51890BB9A002CCF9A /* AFSecurityPolicy.m in Sources */,
 				DFD93522188FC107006C3025 /* ZQAppDelegate.m in Sources */,
-				DF86A0611892A04F00F3BE81 /* Toast+UIView2.2.m in Sources */,
+				DFA499E21893EFE400776AAB /* Toast+UIView.m in Sources */,
 				DFA5DDB31890BB9A002CCF9A /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
