@@ -50,7 +50,16 @@
 
 - (void)loadNews
 {
-    if (self.category && !self.refreshDataTask) {
+    if (self.news != nil)
+    {
+        [self.view.superview makeToastActivity:@"center" message:@"努力加载"];
+    }
+    else
+    {
+        [self.view makeToastActivity:@"center" message:@"努力加载"];//Fixit:第一次开始不提示正在加载的问题
+    }
+    if (self.category && !self.refreshDataTask)
+    {
         NSString* encodedString = (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef)self.category, NULL, (CFStringRef)@"!*'();:@&=+$,/?%#[]", kCFStringEncodingUTF8));
         NSString *urlString = [NSString stringWithFormat:@"http://news.ziqiang.net/api/article/?n=%i&s=%@&p=%i",kNumberOfNewsLoadEachTime, encodedString, [self.news count]/kNumberOfNewsLoadEachTime+1];
         NSURL *url = [NSURL URLWithString:urlString];
@@ -68,8 +77,7 @@
                                     self.refreshDataTask = nil;
                                 }];
         [self.refreshDataTask resume];
-        
-        [self.view.superview makeToastActivity:@"center"];
+        [self.view.superview hideToastActivity];
         //[self.navigationController.navigationBar.]
         //TODO:用NavigationBar做提示怎么样？
         

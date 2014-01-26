@@ -84,11 +84,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SelfNewsPrc/ZQTableViewController.m"
-            timestampString = "412436473.313472"
+            timestampString = "412438362.233822"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "-showStatusOnNavigationBar"
             landmarkType = "5">
          </BreakpointContent>
@@ -100,11 +100,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SelfNewsPrc/ZQTableViewController.m"
-            timestampString = "412436770.353847"
+            timestampString = "412438362.233822"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-loadNews"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SelfNewsPrc/ZQTableViewController.m"
+            timestampString = "412438362.233822"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-loadNews"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SelfNewsPrc/ZQTableViewController.m"
+            timestampString = "412438286.321703"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "-loadNews"
             landmarkType = "5">
          </BreakpointContent>
