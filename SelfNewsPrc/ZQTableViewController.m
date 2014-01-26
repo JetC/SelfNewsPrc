@@ -68,7 +68,7 @@
         
         //[self.view makeToastActivity:@"bottom"];
         [self.tableView makeToastActivity:@"center"];
-        [self.navigationController.navigationBar.]
+        //[self.navigationController.navigationBar.]
         //TODO:用NavigationBar做提示怎么样？
         
     }
