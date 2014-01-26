@@ -116,6 +116,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF2CD7701894F5CC003E3F67 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		DF86A05E18928D7F00F3BE81 /* Kits */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +185,7 @@
 		DFD93517188FC107006C3025 /* SelfNewsPrc */ = {
 			isa = PBXGroup;
 			children = (
+				DF2CD7701894F5CC003E3F67 /* iPad */,
 				DFD93520188FC107006C3025 /* ZQAppDelegate.h */,
 				DFD93521188FC107006C3025 /* ZQAppDelegate.m */,
 				DFD93523188FC107006C3025 /* Main.storyboard */,
@@ -462,7 +470,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SelfNewsPrc/SelfNewsPrc-Prefix.pch";
 				INFOPLIST_FILE = "SelfNewsPrc/SelfNewsPrc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -475,7 +485,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SelfNewsPrc/SelfNewsPrc-Prefix.pch";
 				INFOPLIST_FILE = "SelfNewsPrc/SelfNewsPrc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -66,7 +66,10 @@
                                 }];
         [self.refreshDataTask resume];
         
-        [self.view makeToastActivity];
+        //[self.view makeToastActivity:@"bottom"];
+        [self.tableView makeToastActivity:@"center"];
+        [self.navigationController.navigationBar.]
+        //TODO:用NavigationBar做提示怎么样？
         
     }
 }
@@ -106,7 +109,7 @@
     if (self.tableView.contentOffset.y>=self.tableView.contentSize.height-self.tableView.bounds.size.height-self.tableView.contentInset.bottom)
     {
         [self loadNews];
-        [self.view makeToast:@"正在加载新闻"];
+        
         
     }
 }

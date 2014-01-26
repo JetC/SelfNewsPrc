@@ -24,7 +24,7 @@ static const CGFloat CSToastCornerRadius        = 10.0;
 static const CGFloat CSToastOpacity             = 0.8;
 static const CGFloat CSToastFontSize            = 16.0;
 static const CGFloat CSToastMaxTitleLines       = 0;
-static const CGFloat CSToastMaxMessageLines     = 0;
+    static const CGFloat CSToastMaxMessageLines     = 0;
 static const NSTimeInterval CSToastFadeDuration = 0.2;
 
 // shadow appearance
