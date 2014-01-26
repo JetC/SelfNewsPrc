@@ -11,5 +11,6 @@
 @interface ZQTableViewController : UITableViewController
 
 @property (nonatomic, strong) NSString *category;
+@property (nonatomic, strong) UILabel *messageLabel;
 
 @end

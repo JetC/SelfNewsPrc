@@ -35,6 +35,9 @@
     [super viewDidLoad];
     self.category = @"最新";
     [self loadNews];
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;//网络信号右侧转菊花并保持,需手动撤销
+    [self showStatusOnNavigationBar];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,8 +69,7 @@
                                 }];
         [self.refreshDataTask resume];
         
-        //[self.view makeToastActivity:@"bottom"];
-        [self.tableView makeToastActivity:@"center"];
+        [self.view.superview makeToastActivity:@"center"];
         //[self.navigationController.navigationBar.]
         //TODO:用NavigationBar做提示怎么样？
         
@@ -120,6 +122,25 @@
     ZQDetailViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"detailNews"];
     viewController.sourceDict = (NSDictionary *)self.news[indexPath.row];
     [self.navigationController pushViewController:viewController animated:YES];
+}
+
+#pragma mark NavigationBar
+
+- (void)showStatusOnNavigationBar:(NSString *)message
+{
+    self.messageLabel.frame = [UIApplication sharedApplication].statusBarFrame;
+    self.messageLabel.backgroundColor = [UIColor blackColor];
+}
+
+- (void)showStatusOnNavigationBar
+{
+    self.messageLabel.frame = [UIApplication sharedApplication].statusBarFrame;
+    self.messageLabel.backgroundColor = [UIColor greenColor];
+}
+
+- (void)hideStatusOnNavigationBar
+{
+    
 }
 
 #pragma mark - Utilities
