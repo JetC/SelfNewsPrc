@@ -10,7 +10,6 @@
 #import "AFNetworking.h"
 #import "Toast+UIView.h"
 #import "ZQTableViewController.h"
-#import "MTStatusBarOverlay.h"
 
 @interface ZQDetailViewController ()
 

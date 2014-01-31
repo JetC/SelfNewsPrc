@@ -9,6 +9,8 @@
 #import "ZQTableViewController.h"
 #import "ZQDetailViewController.h"
 #import "Toast+UIView.h"
+#import "MTStatusBarOverlay.h"
+
 
 #define kNumberOfNewsLoadEachTime 15
 
@@ -37,7 +39,8 @@
     [self loadNews];
     //[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;//网络信号右侧转菊花并保持,需手动撤销
     //[self showStatusOnNavigationBar];
-    []
+    MTStatusBarOverlay *overlay = [MTStatusBarOverlay sharedInstance];
+    [overlay postMessage:@"123"];
     
 }
 
