@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2B0892189B79DE0039EEA8 /* MTStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2B0891189B79DE0039EEA8 /* MTStatusBarOverlay.m */; };
 		DF7B0026188FEBA800585D8B /* ZQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B0025188FEBA800585D8B /* ZQDetailViewController.m */; };
 		DF7B002C188FFD4300585D8B /* ZQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B002B188FFD4300585D8B /* ZQTableViewController.m */; };
 		DFA499E21893EFE400776AAB /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA499E11893EFE400776AAB /* Toast+UIView.m */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF2B0890189B79DE0039EEA8 /* MTStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStatusBarOverlay.h; sourceTree = "<group>"; };
+		DF2B0891189B79DE0039EEA8 /* MTStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStatusBarOverlay.m; sourceTree = "<group>"; };
 		DF7B0024188FEBA800585D8B /* ZQDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQDetailViewController.h; sourceTree = "<group>"; };
 		DF7B0025188FEBA800585D8B /* ZQDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQDetailViewController.m; sourceTree = "<group>"; };
 		DF7B002A188FFD4300585D8B /* ZQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTableViewController.h; sourceTree = "<group>"; };
@@ -193,6 +196,8 @@
 				DF7B002B188FFD4300585D8B /* ZQTableViewController.m */,
 				DF7B0024188FEBA800585D8B /* ZQDetailViewController.h */,
 				DF7B0025188FEBA800585D8B /* ZQDetailViewController.m */,
+				DF2B0890189B79DE0039EEA8 /* MTStatusBarOverlay.h */,
+				DF2B0891189B79DE0039EEA8 /* MTStatusBarOverlay.m */,
 				DF86A05E18928D7F00F3BE81 /* Kits */,
 				DFD93529188FC107006C3025 /* Images.xcassets */,
 				DFD93518188FC107006C3025 /* Supporting Files */,
@@ -332,6 +337,7 @@
 				DFA5DDB41890BB9A002CCF9A /* AFNetworkReachabilityManager.m in Sources */,
 				DFA5DDB91890BB9A002CCF9A /* AFURLSessionManager.m in Sources */,
 				DFA5DDB71890BB9A002CCF9A /* AFURLRequestSerialization.m in Sources */,
+				DF2B0892189B79DE0039EEA8 /* MTStatusBarOverlay.m in Sources */,
 				DF7B002C188FFD4300585D8B /* ZQTableViewController.m in Sources */,
 				DFA5DDB81890BB9A002CCF9A /* AFURLResponseSerialization.m in Sources */,
 				DF7B0026188FEBA800585D8B /* ZQDetailViewController.m in Sources */,

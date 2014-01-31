@@ -35,8 +35,9 @@
     [super viewDidLoad];
     self.category = @"最新";
     [self loadNews];
-    [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;//网络信号右侧转菊花并保持,需手动撤销
-    [self showStatusOnNavigationBar];
+    //[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;//网络信号右侧转菊花并保持,需手动撤销
+    //[self showStatusOnNavigationBar];
+    []
     
 }
 
@@ -50,14 +51,12 @@
 
 - (void)loadNews
 {
-    if (self.news != nil)
-    {
-        [self.view.superview makeToastActivity:@"center" message:@"努力加载"];
-    }
-    else
-    {
-        [self.view makeToastActivity:@"center" message:@"努力加载"];//Fixit:第一次开始不提示正在加载的问题
-    }
+    UIView *toastView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 480)];
+//    [self.view.superview addSubview:toastView];
+//    [toastView makeToastActivity:@"center" message:@"nljz"];
+    
+    
+    
     if (self.category && !self.refreshDataTask)
     {
         NSString* encodedString = (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef)self.category, NULL, (CFStringRef)@"!*'();:@&=+$,/?%#[]", kCFStringEncodingUTF8));
@@ -70,14 +69,19 @@
                                         NSArray *news = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
                                         self.news = [self.news arrayByAddingObjectsFromArray:news];
                                         [self.tableView reloadData];
+                                        [self.view.superview hideToastActivity];
+                                        [self.view hideToastActivity];
+
                                     } else {
                                         NSLog(@"%@",error);
                                     }
-                                    [self.view hideToastActivity];
+//                                    [self.view hideToastActivity];
                                     self.refreshDataTask = nil;
                                 }];
         [self.refreshDataTask resume];
-        [self.view.superview hideToastActivity];
+        
+        
+        
         //[self.navigationController.navigationBar.]
         //TODO:用NavigationBar做提示怎么样？
         

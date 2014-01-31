@@ -10,6 +10,7 @@
 #import "AFNetworking.h"
 #import "Toast+UIView.h"
 #import "ZQTableViewController.h"
+#import "MTStatusBarOverlay.h"
 
 @interface ZQDetailViewController ()
 
@@ -43,14 +44,14 @@
     [requestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
         self.contentDict = (NSDictionary *)((NSArray *)responseObject)[0];
         [self.webView loadHTMLString:self.contentDict[@"content"] baseURL:nil];
-        [self.view hideToastActivity];
+//        [self.view hideToastActivity];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"%@",error);
-        [self.view hideToastActivity];
-        [self.view makeToast:@"加载失败"];
+//        [self.view hideToastActivity];
+//        [self.view makeToast:@"加载失败"];
     }];
     [requestOperation start];
-    [self.view makeToastActivity];
+//    [self.view makeToastActivity];
 }
 
 - (void)setSourceDict:(NSDictionary *)sourceDict
