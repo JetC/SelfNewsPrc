@@ -39,8 +39,8 @@
     [self loadNews];
     //[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;//网络信号右侧转菊花并保持,需手动撤销
     //[self showStatusOnNavigationBar];
-    MTStatusBarOverlay *overlay = [MTStatusBarOverlay sharedInstance];
-    [overlay postMessage:@"123"];
+//    MTStatusBarOverlay *overlay = [MTStatusBarOverlay sharedInstance];
+//    [overlay postMessage:@"123"];
     
 }
 
@@ -54,10 +54,10 @@
 
 - (void)loadNews
 {
-    UIView *toastView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 480)];
-//    [self.view.superview addSubview:toastView];
-//    [toastView makeToastActivity:@"center" message:@"nljz"];
-    
+//    UIView *toastView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 480)];
+//    [self.view.superview insertSubview:toastView atIndex:1];
+//    NSLog(@"%@",self.view.superview);
+//    [toastView makeToastActivity:@"center" message:@"正在努力加载"];
     
     
     if (self.category && !self.refreshDataTask)
@@ -78,13 +78,14 @@
                                     } else {
                                         NSLog(@"%@",error);
                                     }
-//                                    [self.view hideToastActivity];
+                                    [self.view hideToastActivity];
                                     self.refreshDataTask = nil;
                                 }];
         [self.refreshDataTask resume];
         
         
         
+        NSLog(@"%@",self.view.superview);
         //[self.navigationController.navigationBar.]
         //TODO:用NavigationBar做提示怎么样？
         
@@ -126,6 +127,15 @@
     if (self.tableView.contentOffset.y>=self.tableView.contentSize.height-self.tableView.bounds.size.height-self.tableView.contentInset.bottom)
     {
         [self loadNews];
+        if ([self.news count] != 0)
+        {
+            UIView *footer = [[UIView alloc] initWithFrame: CGRectMake(0, 0, 1, 45)];
+            footer.backgroundColor = [UIColor blackColor];
+            [footer makeToastActivity:@"center" message:@"123"];
+            self.tableView.tableFooterView = footer;
+            
+        }
+
         
         
     }

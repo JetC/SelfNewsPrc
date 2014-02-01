@@ -21,8 +21,8 @@ static const CGFloat CSToastMaxHeight           = 0.8;      // 80% of parent vie
 static const CGFloat CSToastHorizontalPadding   = 10.0;
 static const CGFloat CSToastVerticalPadding     = 10.0;
 static const CGFloat CSToastCornerRadius        = 10.0;
-static const CGFloat CSToastOpacity             = 0.8;
-static const CGFloat CSToastFontSize            = 16.0;
+static const CGFloat CSToastOpacity             = 0;
+static const CGFloat CSToastFontSize            = 14.0;
 static const CGFloat CSToastMaxTitleLines       = 0;
     static const CGFloat CSToastMaxMessageLines     = 0;
 static const NSTimeInterval CSToastFadeDuration = 0.2;
@@ -156,6 +156,7 @@ static const NSString * CSToastActivityViewKey  = @"CSToastActivityViewKey";
 - (void)makeToastActivity:(id)position {
     // sanity
     UIView *existingActivityView = (UIView *)objc_getAssociatedObject(self, &CSToastActivityViewKey);
+    
     if (existingActivityView != nil) return;
     
     UIView *activityView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CSToastActivityWidth, CSToastActivityHeight)];

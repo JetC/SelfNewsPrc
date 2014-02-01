@@ -695,10 +695,13 @@ kDetailViewWidth, kHistoryTableRowHeight*kMaxHistoryTableRowCount + kStatusBarHe
 	[NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(hide) object:nil];
 	[NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(clearHistory) object:nil];
     
-	// update UI depending on current status bar style
-	UIStatusBarStyle statusBarStyle = [UIApplication sharedApplication].statusBarStyle;
-	[self setStatusBarBackgroundForStyle:statusBarStyle];
-	[self setColorSchemeForStatusBarStyle:statusBarStyle messageType:messageType];
+
+    
+// update UI depending on current status bar style
+#pragma mark StatusBarStyle
+    //UIStatusBarStyle statusBarStyle = [UIApplication sharedApplication].statusBarStyle;
+	[self setStatusBarBackgroundForStyle:UIStatusBarStyleLightContent];
+	[self setColorSchemeForStatusBarStyle:UIStatusBarStyleLightContent messageType:messageType];
 	[self updateUIForMessageType:messageType duration:duration];
     
 	// if status bar is currently hidden, show it unless it is forced to hide
