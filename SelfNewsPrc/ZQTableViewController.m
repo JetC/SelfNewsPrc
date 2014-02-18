@@ -37,7 +37,7 @@
     [super viewDidLoad];
     self.category = @"最新";
     [self loadNews];
-    //[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;//网络信号右侧转菊花并保持,需手动撤销
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;//网络信号右侧转菊花并保持,需手动撤销
     //[self showStatusOnNavigationBar];
 //    MTStatusBarOverlay *overlay = [MTStatusBarOverlay sharedInstance];
 //    [overlay postMessage:@"123"];
@@ -85,7 +85,7 @@
         
         
         
-        NSLog(@"%@",self.view.superview);
+        NSLog(@"%@",urlString);
         //[self.navigationController.navigationBar.]
         //TODO:用NavigationBar做提示怎么样？
         
